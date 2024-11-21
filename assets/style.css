@@ -1,0 +1,100 @@
+body{
+	background-color: #d2caca;
+}
+table img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}  
+ .photo img{
+	height: 100px;
+	width: 100px;
+    object-fit: cover;
+ }
+/* //single View page design */
+.single-developer-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #989da2;
+    margin: 0;
+    padding: 0;
+}
+
+.single-developer-page .container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.single-developer-page .card-header {
+    background: linear-gradient(135deg, #3e5369, #2219d1);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.single-developer-page .singleViewPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.single-developer-page .singleViewPhoto img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #6c63ff;
+}
+
+.single-developer-page .devInfo {
+    padding: 20px;
+}
+
+.single-developer-page .devInfo h3,
+.single-developer-page .devInfo p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.single-developer-page .devInfo h3 {
+    color: #007bff;
+}
+
+.single-developer-page .devInfo p b {
+    color: #6c63ff;
+}
+
+.single-developer-page .btn {
+    font-weight: bold;
+    border-radius: 15px;
+	background-color: #3e5369;
+}
+
+.single-developer-page a.btn {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.single-developer-page a.btn:hover {
+    background-color: #a27a1b;
+    color: white;
+}
+
+.single-developer-page .card {
+    border: none;
+    border-radius: 10px;
+}
+
+.single-developer-page .card-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 0 0 10px 10px;
+}
+
+
